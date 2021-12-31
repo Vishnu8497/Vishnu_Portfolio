@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.bgimage {
+    height: 80%;
+    width: 80%;
+    top: 24%;
+    left: 10%;
+    position: absolute;
+    background-image: url(../images/audio1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quote {
+    position: relative;
+    text-align: center;
+    top: 10%;
+    font-size: 33px;
+}
+
+.audio {
+    position: absolute;
+    width: 100%;
+    top: 110%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.story {
+    position: absolute;
+    width: 70%;
+    left: 15%;
+    top: 127%;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
